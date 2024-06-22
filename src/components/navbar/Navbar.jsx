@@ -4,19 +4,11 @@ import { NavLink } from "react-router-dom";
 import { FaInstagram, FaTelegram, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false);
-
   return (
     <div className="navbars">
       <div className="container navbar">
         <img src={logo} alt="" />
         <ul>
-          <li>
-            <NavLink to={"/"}>Home</NavLink>
-          </li>{" "}
-          <li>
-            <NavLink to={"/blogs"}>Blogs</NavLink>
-          </li>{" "}
           <li>
             <NavLink target="blank" to={"https://www.instagram.com/1parmanov/"}>
               <FaInstagram className="icon" /> instagram

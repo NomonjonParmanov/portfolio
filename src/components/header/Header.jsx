@@ -56,7 +56,7 @@ const Header = () => {
           <p>
             I’m <span>Nomonjon</span>
           </p>
-          <p>Full-stack developer</p>
+          <p>Frontend developer</p>
           <p className="content">
             I help business grow by crafting amazing web experiences. If you’re
             looking for a developer that likes to get stuff done,
@@ -64,21 +64,21 @@ const Header = () => {
         </div>
         <div className="hero__right">
           <div className="content">
-            <p className="num">2</p>
+            <p className="num">1</p>
             <p>
               Programming <span>Language</span>
             </p>
           </div>
           <div className="content">
-            <p className="num">6</p>
+            <p className="num">2</p>
             <p>
-              Development <span>Tools</span>
+              e-commerce <span>Projects</span>
             </p>
           </div>
           <div className="content">
-            <p className="num">1</p>
+            <p className="num">2</p>
             <p>
-              Years of <span>Experience</span>
+              Months of <span>Experience</span>
             </p>
           </div>
         </div>
