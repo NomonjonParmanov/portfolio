@@ -11,19 +11,19 @@ const Navbar = () => {
         <ul>
           <li>
             <NavLink target="blank" to={"https://www.instagram.com/1parmanov/"}>
-              <FaInstagram className="icon" /> instagram
+              <FaInstagram className="icon" /> <p>instagram</p>
             </NavLink>
           </li>{" "}
           <li>
             <NavLink target="blank" to={"https://t.me/Parmanov1"}>
               <FaTelegram className="icon" />
-              telegram
+              <p>telegram</p>
             </NavLink>
           </li>
           <li>
             <NavLink target="blank" to={"https://github.com/NomonjonParmanov"}>
               <FaGithub className="icon" />
-              Github
+              <p>Github</p>
             </NavLink>
           </li>
         </ul>

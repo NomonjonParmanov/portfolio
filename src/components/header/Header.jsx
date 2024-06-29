@@ -51,35 +51,37 @@ const Header = () => {
           <div className="skills">{skill}</div>
           <button type="download">Download CV</button>
         </div>
-        <div className="hero__middle">
-          <p>Hey</p>
-          <p>
-            I’m <span>Nomonjon</span>
-          </p>
-          <p>Frontend developer</p>
-          <p className="content">
-            I help business grow by crafting amazing web experiences. If you’re
-            looking for a developer that likes to get stuff done,
-          </p>
-        </div>
-        <div className="hero__right">
-          <div className="content">
-            <p className="num">1</p>
+        <div className="hero__response">
+          <div className="hero__middle">
+            <p>Hey</p>
             <p>
-              Programming <span>Language</span>
+              I’m <span>Nomonjon</span>
+            </p>
+            <p>Frontend developer</p>
+            <p className="content">
+              I help business grow by crafting amazing web experiences. If
+              you’re looking for a developer that likes to get stuff done,
             </p>
           </div>
-          <div className="content">
-            <p className="num">2</p>
-            <p>
-              e-commerce <span>Projects</span>
-            </p>
-          </div>
-          <div className="content">
-            <p className="num">2</p>
-            <p>
-              Months of <span>Experience</span>
-            </p>
+          <div className="hero__right">
+            <div className="content">
+              <p className="num">1</p>
+              <p>
+                Programming <span>Language</span>
+              </p>
+            </div>
+            <div className="content">
+              <p className="num">2</p>
+              <p>
+                e-commerce <span>Projects</span>
+              </p>
+            </div>
+            <div className="content">
+              <p className="num">2</p>
+              <p>
+                Months of <span>Experience</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
